@@ -1,0 +1,33 @@
+.stock-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.stock-card:hover {
+  transform: scale(1.02);
+}
+
+.stock-card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.stock-symbol {
+  font-weight: bold;
+}
+
+.stock-change {
+  font-weight: bold;
+}
+
+.stock-change.positive {
+  color: var(--gainer-color);
+}
+
+.stock-change.negative {
+  color: var(--loser-color);
+}
