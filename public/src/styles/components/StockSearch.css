@@ -1,0 +1,30 @@
+.stock-search-container {
+  margin-bottom: 20px;
+}
+
+.stock-search-wrapper {
+  display: flex;
+  gap: 10px;
+}
+
+.stock-search-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.stock-search-button {
+  padding: 10px 15px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.stock-search-button:hover {
+  opacity: 0.9;
+}
